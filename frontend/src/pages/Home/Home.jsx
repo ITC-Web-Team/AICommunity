@@ -11,15 +11,15 @@ export default function Home() {
         <div className="hey">
             <div className="home1">
                 <div className="boxes">
-                    <div className="notbox first">
-                        <h1 className="box-heading">
+                    <div className="notbox first topics">
+                        <h1 className="box-heading ">
                         Crafting AI's Future,<br/> one idea at IITB
                         </h1>
                         <p className="description">
                         The official AI community of IIT-Bombay, we aim to elevate the AI ecosystem in IITB by organizing hackathons, projects, talks and reading groups.
                         </p>
                     </div>
-                    <div className="notbox first">
+                    <div className="notbox first topics">
                         <h2>
                         We are a group of AI enthusiasts aiming to produce world-class research outputs
                         </h2>
@@ -44,18 +44,18 @@ export default function Home() {
                         </p>
                     </div>
                     <div className="topics ">
-                        
+                        <h1 className="box-heading">Reinforcement Learning</h1>
                         <p className="description">
                         Unlock the potential of data. Delve into analysis, predictive modeling,
                         and data-driven strategies. From business optimization to machine
                         learning, turn information into actionable insights.
                         </p>
-                        <h1 className="box-heading">Reinforcement Learning</h1>
+                        
                     </div>
                     
                         <div className="topics">
                         <h1 className="box-heading">Computer Vision</h1>
-                        <p>
+                        <p className="description">
                         Experience the future of visual intelligence in image recognition,
                         object detection, and custom solutions, powering applications in
                         healthcare, automotive, and more. Unleash the potential of visual
@@ -63,23 +63,23 @@ export default function Home() {
                         </p>
                     </div>
                     <div className="topics">
-                        
+                        <h1 className="box-heading">Linguistic Computation</h1>
                         <p className="description">Explore the realm of language in linguistic computation covering
                         natural language processing, sentiment analysis, and language
                         models. From chatbots to content analysis, we turn language into
                         actionable insights.</p>
-                        <h1 className="box-heading">Linguistic Computation</h1>
+                        
                     </div>
                 </div>
             </div>
             <div className="home3">
-                <div className="notbox">
+                <div className="notbox topics">
                     <h1 className="box-heading">
                         Explore our insightful blogs covering AI, ML and carrer opportunities in these fields
                     </h1>
                 </div>
                 <Link to="/blogs">
-                <div className="notbox">
+                <div className="notbox topics">
                     <h2>
                         Explore Blogs! <img className="rightarrow" src={right} alt="right" />
                     </h2>
@@ -89,14 +89,14 @@ export default function Home() {
             
             <div className="home4">
                 <div className="project">
-                <div className="notbox"> 
+                <div className="notbox topics"> 
                     <h1>
                         Get Ready to Start
                         Your Project With Us
                     </h1>
                 </div>
                 </div>
-                <img src={image} className="project-image" alt="tech" />
+                <img src={image} className="project-image topics" alt="tech" />
                           
             </div>
             

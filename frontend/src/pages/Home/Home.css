@@ -9,7 +9,7 @@
     color: white;
     font-family: "Chakra Petch", sans-serif;
     background: rgb(34,67,195);
-    background: linear-gradient(40deg, rgba(34,67,195,0.15) 0%, rgba(170,48,223,0.15) 100%);
+    background: linear-gradient(40deg, rgba(34,67,195,0.25) 0%, rgba(170,48,223,0.25) 100%);
     border-radius: 1.5rem;
     padding: 1.5rem;
     gap:1rem;
@@ -57,19 +57,16 @@
     border-radius: 1.5rem;
     margin: 0.5rem;
 }
-.box-heading{
-    margin-bottom: 1rem;
-}
 .boxes{
     display: flex;
     flex-direction: column;
 }
 .topics{
     padding: 2rem;
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    display: block;
 } 
 .rightarrow{
     width: 2.5rem;
@@ -99,4 +96,16 @@
     height: 100vh;
     justify-content: space-between;
     align-items: center;
+}
+.first{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.description{
+    font-size: large;
+    letter-spacing: 0.05rem;
 }
