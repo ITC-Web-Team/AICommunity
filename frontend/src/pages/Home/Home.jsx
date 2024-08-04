@@ -2,6 +2,9 @@ import React from "react";
 import img1 from "../../assets/img1.jpg";
 import img2 from "../../assets/img2.jpeg";
 import img3 from "../../assets/img3.jpg";
+import insta from "../../assets/insta.jpeg";
+import linkedin from "../../assets/in.png";
+import x from "../../assets/in.png";
 import { TypeAnimation } from 'react-type-animation';
 
 
@@ -209,6 +212,32 @@ Today, the AI Community, IITB continues to grow and evolve. We remain committed 
                     <img src={img2} alt="img2" style={{ width: '350px', height: '200px' }}/>
                     <img src={img3} alt="img3" style={{ width: '350px', height: '200px' }}/>
                 </div>
+            </div>
+
+
+            <div className="w-11/12 h-auto rounded-lg flex flex-col bg-opacity-50 p-8 justify-center gap-5 m-8">
+                <div className="font-pressStart text-5xl text-green-500  text-center">Contact Us</div><br/>
+                                    
+                    <div className="flex flex-col">
+                        
+                        <div className="flex flex-row">
+                            <div className="text-white text-3xl font-bold">Mobile No: </div>
+                            <div className="text-white text-3xl">+91 8769740232</div>
+                            
+                        </div><br/>
+                        <div className="flex flex-row">
+                        <div className="text-white text-3xl font-bold">Email: </div>
+                        <div className="text-white text-3xl"> aicommunity.iitb@gmail.com</div>
+                        </div><br/>
+                        <div className="flex flex-row gap-5 ">
+                                    <img src={insta} alt="insta" to="https://www.instagram.com/ai.community_iitb" style={{ width: '50px', height: '50px', borderRadius: '13px' }}/>
+                        <br/>
+                        <img src={linkedin} alt="linkedin" to="https://www.linkedin.com/company/ai-community-iitb/" style={{ width: '50px', height: '50px', borderRadius: '13px' }}/>
+                        <br/>
+                        </div>
+                    </div>
+                
+
             </div>
         </div>
 
