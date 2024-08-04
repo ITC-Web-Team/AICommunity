@@ -23,11 +23,17 @@ export default function Home() {
                                     <TypeAnimation
                                     sequence={[
                                         'Community, IITB',
-                                        2000, 
+                                        1000, 
+                                        "",
+                                        500,
                                         'innovation at IITB',
-                                        2000,
+                                        1000,
+                                        '',
+                                        500,
                                         'learning hub of IITB',
-                                        2000,
+                                        1000,   
+                                        '',
+                                        500,
                                     ]}
                                     wrapper="span"
                                     speed={50}
